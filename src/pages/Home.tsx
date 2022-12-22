@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function HelloPage () {
     return (
       <div>
-        <h1 className="text-3xl font-bold underline">Hello Super Star</h1>
+        <h1 className="text-3xl font-bold underline">Hello Everyone</h1>
         <h1 className="text-2xl font-bold">
-            I have implement your requirement as below
+            Welcome to my simple demo React App
         </h1>
         <h1>
             - React v18 <br/>
@@ -14,8 +14,12 @@ function HelloPage () {
             - React Router <br/>
             - Webpack <br/>
             - Server Side Rendering(SSR) <br/>
-
-            These are must; <br/>
+        </h1>
+        <h1 className="text-xl font-bold">
+            These are implemented 
+        </h1>
+        <br/>
+        <h1>
             - Need to start from CRA(create-react-app). <br/>
             - No need Next.js. <br/>
             - React Router - Having 2 or 3 simple routes are ideal. <br/>

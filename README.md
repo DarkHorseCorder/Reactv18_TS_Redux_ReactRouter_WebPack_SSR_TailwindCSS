@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Reactv18, TypeScript, Redux React-Router WebPack SSR TailwindCSS
+
+This project is built for demo purpose
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+
+This project implement simple counter with Redux.
+
+Use React-Router to show two web pages
+
+Used Typescript and TailwindCSS
+
+For Build, use WebPack
 
 ## Available Scripts
 
@@ -28,6 +40,9 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run build`
+
 
 ### `npm run eject`
 
