@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
 import {
@@ -20,49 +21,26 @@ export function Counter() {
 
   return (
     <div>
-      <div className={styles.row}>
+      <div className="flex items-center justify-center m-5">
         <button
-          className={styles.button}
+          className="px-8 py-5 rounded-3xl text-3xl text-white bg-gradient-to-r from-indigo-500"
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
         >
-          -
+          (-)Decrease
         </button>
-        <span className={styles.value}>{count}</span>
+        <span className="text-6xl">{count}</span>
         <button
-          className={styles.button}
+          className="px-8 py-5 rounded-3xl text-3xl text-white bg-gradient-to-l from-indigo-500"
           aria-label="Increment value"
           onClick={() => dispatch(increment())}
         >
-          +
+          Increase(+)
         </button>
       </div>
-      <div className={styles.row}>
-        <input
-          className={styles.textbox}
-          aria-label="Set increment amount"
-          value={incrementAmount}
-          onChange={(e) => setIncrementAmount(e.target.value)}
-        />
-        <button
-          className={styles.button}
-          onClick={() => dispatch(incrementByAmount(incrementValue))}
-        >
-          Add Amount
-        </button>
-        <button
-          className={styles.asyncButton}
-          onClick={() => dispatch(incrementAsync(incrementValue))}
-        >
-          Add Async
-        </button>
-        <button
-          className={styles.button}
-          onClick={() => dispatch(incrementIfOdd(incrementValue))}
-        >
-          Add If Odd
-        </button>
-      </div>
+      <button>
+        <Link to="/" className='py-3 px-5 rounded-xl font-mono font-3xl text-lime-500 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-xl'>Back Home</Link>
+      </button>
     </div>
   );
 }
