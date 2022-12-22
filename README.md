@@ -2,17 +2,21 @@
 
 This project is built for demo purpose
 
-
+![alt text](https://github.com/DreamWillBeReal/Reactv18_TS_Redux_ReactRouter_WebPack_SSR_TailwindCSS/blob/master/public/React-Redux-Webpack-TailwindCSS-SSR.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
 This project implement simple counter with Redux.
+
+![alt text](https://github.com/DreamWillBeReal/Reactv18_TS_Redux_ReactRouter_WebPack_SSR_TailwindCSS/blob/master/public/Simple_Counter.png)
 
 Use React-Router to show two web pages
 
 Used Typescript and TailwindCSS
 
 For Build, use WebPack
+
+![alt text](https://github.com/DreamWillBeReal/Reactv18_TS_Redux_ReactRouter_WebPack_SSR_TailwindCSS/blob/master/public/webpack.png)
 
 ## Available Scripts
 
